@@ -1,5 +1,5 @@
 import pytest
-
+#setting mark as login. So, to call it, we will use -> (py.test filename -m login)
 @pytest.mark.login
 def test_m1():
     a = 3
