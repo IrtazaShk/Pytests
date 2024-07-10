@@ -31,5 +31,5 @@ Pytest Requirement -> Start & End with Test (Then it will only be recognised)
 -> py.test -k __ -v   =>   details with Passed/Failed
 
 -> using "pytest-html", you can generate a report as html.
-command is >> ******((pytest filename -v -s html=htmlFileTobeCreated_name))******
+command is >> ******((pytest filename -v -s --html=htmlFileTobeCreated_name))******
 
