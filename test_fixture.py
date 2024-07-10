@@ -24,15 +24,3 @@ def test_google(init_driver):
 
 def test_google_url(init_driver):
     assert driver.current_url == "https://www.google.com/"
-
-#----------------------------------------------------
-#                ALSO CAN BE DONE AS:
-#----------------------------------------------------
-
-#@pytest.mark.usefixtures(init_driver)
-#def test_google(init_driver):
-#  assert driver.title == "Google"
-
-#@pytest.mark.usefixtures(init_driver)
-#def test_google_url():
-#  assert driver.current_url == "https://www.google.com/"
