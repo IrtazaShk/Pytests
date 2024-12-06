@@ -5,7 +5,6 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-
 def test_google():
     chrome_options = Options()
     service = Service(ChromeDriverManager().install())
